@@ -21,10 +21,10 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-EMILIA_IMG = "https://telegra.ph/file/b37cec509d121c8c63518.jpg"
+EMILIA_IMG = "https://telegra.ph/file/2832417c46e5e242ab548.jpg"
 
 EMILIA_USAGE_TEXT = """
-Basic Usage Help For Emilia
+Basic Usage Help For EmiliaAnime_Bot
 
 🔳Add me To your Group
 🔳Make Me Admin With Full Rights.
@@ -64,7 +64,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-This is Emilia[.](https://telegra.ph/file/65fb4fdec1bd9787f01a0.jpg)
+This is EmiliaAnime_Bot[.](https://telegra.ph/file/2832417c46e5e242ab548.jpg)
 
 A Diverse Systematic Bot Written in Python.
 You can Add Me In Your Group for Knowing my True Power.
@@ -73,17 +73,17 @@ You can Add Me In Your Group for Knowing my True Power.
 buttons = [
     [
         InlineKeyboardButton(
-            text="🏹Summon ME🏹",url="t.me/EmiliaAnimeRoBot?startgroup=true"
+            text="➕Add Me To Group➕",url="t.me/EmiliaAnime_Bot?startgroup=true"
         ),
     ],
     [
         InlineKeyboardButton(
-          text="Commands", callback_data="help_back"
+          text="♐All Commands♐", callback_data="help_back"
         ),
     ],
     [
         InlineKeyboardButton(
-          text="📮 Updates", url="https://t.me/TangentXOfficial"
+          text="📮Updates📮", url="https://t.me/RMCMG"
         ),
       
         InlineKeyboardButton(
@@ -93,20 +93,26 @@ buttons = [
          
     [
        InlineKeyboardButton(
-           text="🐱 Support", url="https://t.me/TangentChats"
+           text="🐱Support🐱", url="https://t.me/RMCMG_Bots_Discussion"
          ),
     ],
+    [
+       InlineKeyboardButton(
+           text="🛡️Creator🛡️", url="https://t.me/mkspali"
+         ),
+    ],
+    
     [
         InlineKeyboardButton(
           text="✒ Source", callback_data="source_"
         ),
      
     ],
-]
+    ]
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [Emilia!](https://telegra.ph/file/e5fc94ada18369f89c832.jpg) 
+`Hey there! My name is` [Emilia!](https://telegra.ph/file/2832417c46e5e242ab548.jpg) 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
@@ -230,10 +236,10 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://telegram.dog/TangentChats")
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://telegram.dog/RMCMG_Bots_Discussion")
                   ],
                   [
-                  InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", url="https://github.com/IzumiCypherX/EmiliaAnimeBot")
+                  InlineKeyboardButton(text="Sᴏᴜʀᴄᴇ", url="https://telegram.dog/RMCMG")
                   ]
                 ]
             ),
@@ -393,7 +399,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..👩‍💼 I'm *Emilia*
-                 \nMy Source Code Can be Found at Github at this [Link](https://github.com/IzumiCypherX/EmiliaAnimeBot""",
+                 \nMy Source Code Can be Found at Telegram at this [Link](https://t.me/RMCMG""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
