@@ -1,7 +1,7 @@
 {
-      "name": "EmiliaBot",
+      "name": "EmiliaAnime_Bot",
       "description": "An Anime themed Telegram group management bot.",
-      "logo": "https://telegra.ph/file/3cf1be03a3b1653cc98d1.jpg", 
+      "logo": "https://telegra.ph/file/2832417c46e5e242ab548.jpg", 
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "Emilia"
       ],   
-   "repository": "https://github.com/IzumiCypherX/EmiliaAnimeBot",
+   "repository": "https://github.com/RMCMG/EmiliaAnime_Bot",
    "addons": [
       {
          "options": {
@@ -42,26 +42,26 @@
       "OWNER_ID": {
          "description": "Your Telegram User ID as an integer.",
          "required": true,
-         "value": ""
+         "value": "412094015"
       },
       "OWNER_USERNAME": {
          "description": "Your Telegram username without the @",
-         "value": ""
+         "value": "mkspali"
       },
       "SUPPORT_CHAT": {
          "description": "The Telegram Support Group Where Users of your Bot can Go and ask their Questions. This MUST NOT be pointing towards TangentChats",
          "required": true,
-         "value": "SupportGroupName"
+         "value": "RMCMG_Bots_Discussion"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456789"
+         "value": "-1001515775622"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456789"
+         "value": "-1001515775622"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -76,7 +76,7 @@
       "DEV_USERS": {
          "description": "Enter the IDs of the users who are the Developers of the Bot. If you are newbie and want help from Tangent Itself, then keep the IDs as they are and add yours",
          "required": false,
-         "value": "1530197342"
+         "value": "412094015"
       },
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -90,22 +90,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": ""
+         "value": "412094015"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who can use Gban From Your Bot",
          "required": false,
-         "value": ""
+         "value": "412094015"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who can not be banned by your Bot",
          "required": false,
-         "value": ""
+         "value": "412094015"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": ""
+         "value": "412094015"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -143,7 +143,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "https://t.me/mkspali"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
@@ -167,7 +167,7 @@
       "LOG_GROUP_ID": {
          "description": "The ID of the Group where the bot will spam with shitty errors and techy stuff",
          "required": true,
-         "value": ""
+         "value": "-1001594744091"
       }
    }
 }
