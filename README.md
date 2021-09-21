@@ -1,93 +1,54 @@
-![Emilia](https://telegra.ph/file/3a2d5f40a0f3932c527a5.jpg)
-# Emilia
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/IzumiCypherX/EmiliaAnimeBot/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html)<br> [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)<br> [![Updates channel!](https://img.shields.io/badge/Join%20Channel-↗-red)](https://t.me/TangentXOfficial) 
-[![Support Group!](https://img.shields.io/badge/Join%20Group-↗-green)](https://t.me/TangentXOfficial)
+##
 
+<h1 align=center>EmiliaAnime_Bot</h1>
 
-> If There's no Trace of This Repo in your Bot, We will be pushing a gban on you from our systems.
+[![Deploy](https://telegra.ph/file/2832417c46e5e242ab548.jpg)](https://heroku.com/deploy?template=https://github.com/QueenArzoo/LaylaRobot.git)
 
+##
 
-### Can be found on telegram as [Emilia](https://t.me/EmiliaAnimeRoBot).
-
-##### For Session String, Run stringgen.py locally
-
-### Status
-
-+ [x] Maintained
-+ [x] Support Group Included
-+ [x] Free
-+ [x] OpenSourced
-+ [x] Working Instance Available
-+ [x] Clean Code
-+ [x] Heroku Deploy
-+ [x] Docker/Local Machine
-
-#### Creator Info/Credits
-
-```
-Thanks To:
-> @AnimeKaizoku
-
-> @PaulSonofLars
-
-> @sudo_nautilus
-
-> @kanekiken44
-
-> @TheHamkerCat
-
-```
-
-
-
-The Support group can be reached out to at [Tangent](https://t.me/TangentChats), where you can ask for help about [Emilia](https://t.me/EmiliaAnimeRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
-
-<details>
-	<summary>Heroku Deploy</summary>
-	<br>
-	<b>
-The Easiest Way to Deploy This Bot is Via Heroku.
-		In Order To deploy, You Just Have Fill The Necessary Environment Variables and Done!</b>
-	
-  <h1>
-    <p align="center">
-        <a href="https://heroku.com/deploy?template=https://github.com/IzuMeow/EmiliaAnimeBot">
-            <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-        </a>
-    </p>
-</h1>
-
-</details> 
-
-<details>
-    <summary>More Deploy Options</summary>
-    <br>
-    <p align="center">
-
-    Deploying on Local Machine
-
+<p align="center">
+    <a href="https://github.com/RMCMG/EmiliaAnime_Bot/stargazers"><img src="https://img.shields.io/github/stars/RMCMG/EmiliaAnime_Bot?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+</p>
+<p align="center">
+    <a href="https://app.codacy.com/manual/RMCMG/EmiliaAnime_Bot/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/RMCMG/EmiliaAnime_Bot"> <img src="https://img.shields.io/github/repo-size/RMCMG/EmiliaAnime_Bot?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/RMCMG/EmiliaAnime_Bot/commits/mukesh"> <img src="https://img.shields.io/github/last-commit/RMCMG/EmiliaAnime_Bot?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/RMCMG/EmiliaAnime_Bot/issues"> <img src="https://img.shields.io/github/issues/RMCMG/EmiliaAnime_Bot?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
+    <a href="https://github.com/RMCMG/EmiliaAnime_Bot/network/members"> <img src="https://img.shields.io/github/forks/RMCMG/EmiliaAnime_Bot?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
 </p>
 
-```console
-    IzumiCypherx@arch:~$ git clone https://github.com/IzumiCypherX/EmiliaAnimeBot
-    IzumiCypherx@arch:~$ cd EmiliaAnimeBot
-    IzumiCypherx@arch:~$ cp sample_config.py config.py
-```
+##
 
-Edit Config.py with your own Values
+## How to setup/deploy.
+For easiest way to deploy this Bot click on the below button
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/RMCMG/EmiliaAnime_Bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+ 
+##
 
-Start with ```python -m EmiliaAnimeBot```
+## Mᴀᴅᴇ Bʏ
 
-</details>    
+<a href="https://t.me/mkspali"> <img src="https://img.shields.io/badge/This%20Bot%20Was-Made%20By%20My-orange" /> <img src="https://img.shields.io/badge/Bestest-Master-ff69b4" /> </a>
 
-<details>
-     <summary>Deploying On IDE VMs Like Repl.it</summary>
-       <br>
-         <p align="left">
-            <b> 
+##
 
-            Refer to Deploying On Local Machine
+## Sᴜᴘᴘᴏʀᴛ
 
- </b>
-</p>
-</details>
+<a href="https://t.me/RMCMG"> <img src="https://img.shields.io/badge/Join-Our-green" /> <img src="https://img.shields.io/badge/Support-Channel-critical" /> </a>
+
+##
+
+## Sᴏᴜʀᴄᴇ
+
+* <img src="https://img.shields.io/badge/Python-red" />
+
+##
+
+## Find EmiliaAnime_Bot on Telegram
+<a href="https://t.me/RMCMG_LAYLA_ROBOT"> <img src="https://img.shields.io/badge/Emilia%20Anime%20Bot%20-blue" /> <img src="https://img.shields.io/badge/Best-Bot-ff69b4" /> </a>
+
+##
+
+## A modular Telegram Python bot running on python3 with a sqlalchemy database.
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/RMCMG/EmiliaAnime_Bot.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
